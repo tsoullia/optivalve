@@ -38,9 +38,11 @@ Application web (bonus)
 
 Une application Streamlit donne la prédiction pour un numéro de cycle saisi en entrée. Elle affiche aussi la probabilité, la vraie condition de la valve et les courbes du cycle.
 
+```
 cd app_valve
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 Il faut d'abord copier PS2.txt, FS1.txt et profile.txt dans app_valve/data/. Les détails sont dans app_valve/README.md.
 
